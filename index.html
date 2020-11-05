@@ -18,21 +18,11 @@
 				<a class="brand-logo" href="#index.html">Camper's Asylum</a>
 			</div>
 			<div class="middle">
-				<h2>Stay Tuned</h2>
-				<h1>We ARE COMING SOON</h1>
+				<h2>Stay Tuned For</h2>
+				<h1>THE REAL ADVENTURE</h1>
 
-				<p id="demo"></p>
+				<p id="landing"></p>
 
-				<div class="form-right-inf">
-					<p class="subscribe-txt">Enter your email below to stay updated on our site updates and news</p>
-					<form action="#" method="post" class="signin-form">
-						<div class="forms-gds">
-							<input type="email" name="" placeholder="Enter Your Email.." required="">
-							<button class="btn theme-button">Submit</button>
-						</div>
-					</form>
-
-				</div>
 			</div>
 			<!-- copyright -->
 			<div class="copy-right text-center">
@@ -60,14 +50,14 @@
 				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-				// Output the result in an element with id="demo"
-				document.getElementById("demo").innerHTML = days + "<small>d</small> " + hours + "<small>h</small> " +
+				// Output the result in an element with id="landing"
+				document.getElementById("landing").innerHTML = days + "<small>d</small> " + hours + "<small>h</small> " +
 					minutes + "<small>m</small> " + seconds + "<small>s</small> ";
 
 				// If the count down is over, write some text 
 				if (distance < 0) {
 					clearInterval(countdownfunction);
-					document.getElementById("demo").innerHTML = "EXPIRED";
+					document.getElementById("landing").innerHTML = "EXPIRED";
 				}
 			}, 1000);
 		</script>
