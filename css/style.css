@@ -175,7 +175,7 @@ nav li.booking a:hover {
 }
 
 nav li.active2 {
-    background: #0052a3;
+    background: #047ffc;
     padding: 10px 25px;
     display: block;
     margin-top: -7px;
@@ -184,7 +184,7 @@ nav li.active2 {
     letter-spacing: 1px;
 	font-size: 14px;
 	border-radius: 25px;
-	/*border: 2px solid #fff;*/
+	border: 2px solid #fff;
 }
 
 nav ul li ul li:hover { background: #f8f9fa; }
